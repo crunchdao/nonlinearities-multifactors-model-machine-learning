@@ -1,5 +1,6 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
+
 
 def spear(x):
     """
@@ -21,7 +22,6 @@ def pear(x):
     return pear
 
 
-
 # def orthogonalize_predictions(B, y_hat_df, all_epochs, batch_size, future_moons):
 
 #     y_hat_date = y_hat_df[["date", "y_hat"]]
@@ -31,4 +31,3 @@ def pear(x):
 #     y_hat_date = data.f_matrix
 #     y_hat_df["y_hat"] = y_hat_date["y_hat"]
 #     orth_spearman_history = y_hat_df.groupby("date").apply(lambda x: spear(x))
-
