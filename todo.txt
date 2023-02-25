@@ -1,0 +1,1 @@
+data(X,B,Y) ---> model.train(takes batch size etc)
