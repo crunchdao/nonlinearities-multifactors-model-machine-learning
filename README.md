@@ -12,5 +12,4 @@
 
 </div>
 
-
 ![](paper/figures/midj.png)
